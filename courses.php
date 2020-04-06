@@ -114,7 +114,7 @@ function printCourses($prefix, $courseNumber, $instructor) {
         
         // 2019 Fall Semester
         echo "<h2>2019 - Fall</h2>";
-
+        // This if statement checks for the day of the week and for classes available on that specific day
         if ($SelectedDay == "Monday") {
             echo "<h3> Monday </h3>";
             printListing($string, "M");
